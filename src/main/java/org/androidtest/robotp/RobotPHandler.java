@@ -55,7 +55,9 @@ public class RobotPHandler implements IMsgHandlerFace {
 		} else if (UserMsgHelper.isVaildAdmin(msg)) {
 			result = UserMsgHelper.userTextMsgHandle(msg);
 		} else {
-			LogUtil.MSG.info("textMsgHandle: " + "非法消息: " + msg + "，消息过滤不处理");
+			// TODO 这里可以监控所有消息
+			// LogUtil.MSG.info("textMsgHandle: " + "非法消息: " + msg + "，消息过滤不处理");
+			;
 		}
 		return result;
 	}
