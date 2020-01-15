@@ -1,0 +1,24 @@
+2020-01-15 11:00:58:714:INFO cn.zhouyafeng.itchat4j.Wechat.<init>(Wechat.java:21) - 0. 初始化/home/sunm/Downloads/xiaoV-master/groups_conf下的所有群配置文件
+2020-01-15 11:00:58:950:INFO cn.zhouyafeng.itchat4j.controller.LoginController.login(LoginController.java:32) - 获取UUID
+2020-01-15 11:00:59:189:INFO cn.zhouyafeng.itchat4j.controller.LoginController.login(LoginController.java:40) - 2. 获取登陆二维码图片
+2020-01-15 11:00:59:248:INFO cn.zhouyafeng.itchat4j.controller.LoginController.login(LoginController.java:48) - 3. 请扫描二维码图片，并在手机上确认
+2020-01-15 11:01:08:106:INFO cn.zhouyafeng.itchat4j.service.impl.LoginServiceImpl.login(LoginServiceImpl.java:240) - 请点击微信确认按钮，进行登陆
+2020-01-15 11:01:09:980:INFO cn.zhouyafeng.itchat4j.controller.LoginController.login(LoginController.java:52) - 登陆成功
+2020-01-15 11:01:09:981:INFO cn.zhouyafeng.itchat4j.controller.LoginController.login(LoginController.java:58) - 5. 登陆成功，微信初始化
+2020-01-15 11:01:10:815:INFO cn.zhouyafeng.itchat4j.controller.LoginController.login(LoginController.java:64) - 6. 开启微信状态通知
+2020-01-15 11:01:10:930:INFO cn.zhouyafeng.itchat4j.controller.LoginController.login(LoginController.java:67) - 7. 清除。。。。
+2020-01-15 11:01:10:930:INFO cn.zhouyafeng.itchat4j.controller.LoginController.login(LoginController.java:69) - 欢迎回来， Coulson
+2020-01-15 11:01:10:930:INFO cn.zhouyafeng.itchat4j.controller.LoginController.login(LoginController.java:71) - 8. 开始接收消息
+2020-01-15 11:01:10:931:INFO cn.zhouyafeng.itchat4j.controller.LoginController.login(LoginController.java:74) - 9. 获取联系人信息
+2020-01-15 11:01:13:164:INFO cn.zhouyafeng.itchat4j.controller.LoginController.login(LoginController.java:77) - 10. 获取群好友及群好友列表
+2020-01-15 11:01:16:972:INFO cn.zhouyafeng.itchat4j.controller.LoginController.login(LoginController.java:80) - 11. 缓存本次登陆好友相关消息
+2020-01-15 11:01:16:974:INFO cn.zhouyafeng.itchat4j.controller.LoginController.login(LoginController.java:83) - 12.开启微信状态检测线程
+2020-01-15 11:01:16:974:INFO cn.zhouyafeng.itchat4j.Wechat.start(Wechat.java:64) - +++++++++++++++++++开始消息处理+++++++++++++++++++++
+2020-01-15 11:01:22:772:INFO cn.zhouyafeng.itchat4j.core.MsgCenter.produceMsg(MsgCenter.java:208) - 收到消息一条，来自: @@17160630c1e0f02cb5836b2e2f8b833d8025b4e0b35269218e63159620faa11d
+2020-01-15 11:01:32:820:INFO cn.zhouyafeng.itchat4j.core.MsgCenter.produceMsg(MsgCenter.java:208) - 收到消息一条，来自: @@17160630c1e0f02cb5836b2e2f8b833d8025b4e0b35269218e63159620faa11d
+2020-01-15 11:01:47:494:INFO cn.zhouyafeng.itchat4j.core.MsgCenter.produceMsg(MsgCenter.java:208) - 收到消息一条，来自: @7e6b6e591eec642095ac5b5da286b95d014e74a486751bd60e05e2485513db88
+2020-01-15 11:01:49:046:INFO cn.zhouyafeng.itchat4j.core.MsgCenter.produceMsg(MsgCenter.java:208) - 收到消息一条，来自: @7e6b6e591eec642095ac5b5da286b95d014e74a486751bd60e05e2485513db88
+2020-01-15 11:01:55:547:INFO cn.zhouyafeng.itchat4j.core.MsgCenter.produceMsg(MsgCenter.java:208) - 收到消息一条，来自: @7e6b6e591eec642095ac5b5da286b95d014e74a486751bd60e05e2485513db88
+2020-01-15 11:02:12:955:INFO cn.zhouyafeng.itchat4j.core.MsgCenter.produceMsg(MsgCenter.java:208) - 收到消息一条，来自: @@17160630c1e0f02cb5836b2e2f8b833d8025b4e0b35269218e63159620faa11d
+2020-01-15 11:02:31:135:INFO cn.zhouyafeng.itchat4j.core.MsgCenter.produceMsg(MsgCenter.java:208) - 收到消息一条，来自: @@17160630c1e0f02cb5836b2e2f8b833d8025b4e0b35269218e63159620faa11d
+2020-01-15 11:02:39:168:INFO cn.zhouyafeng.itchat4j.core.MsgCenter.produceMsg(MsgCenter.java:208) - 收到消息一条，来自: @@17160630c1e0f02cb5836b2e2f8b833d8025b4e0b35269218e63159620faa11d

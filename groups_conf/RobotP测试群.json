@@ -1,0 +1,63 @@
+{
+  "Group_name": "测试群",
+  "GroupAdmin": "Coulson;",
+  "GroupRobotConfig": {
+    "ReceiverMassMsg": true,
+    "RobotChat": true,
+    "UnknownReply": true
+  },
+  "GroupPlugin": {
+    "actionPluginArray": [
+      {
+        "matchWords": "菜单",
+        "matchType": "TEXT",
+        "matchRule": 1,
+        "replyType": "TEXT",
+        "replyContent": "===支持的关键字===\n菜单\n刷题群规范\n打卡\n撤回打卡\n周统计\n日统计"
+      },
+      {
+        "matchWords": "刷题群规范",
+        "matchType": "TEXT",
+        "matchRule": 1,
+        "replyType": "MEDIA",
+        "replyContent": "doc/刷题群规范.pdf"
+      }
+    ],
+    "reminderPluginArray": [
+      {
+        "cronTime": "* 00 21 ? * *",
+        "replyType": "TEXT",
+        "remindContent": "大家今天别忘了刷题打卡呀！奥利给！"
+      },
+      {
+        "cronTime": "* 00 21 ? * *",
+        "replyType": "PIC",
+        "remindContent": "doc/img1.jpeg"
+      },
+      {
+        "cronTime": "* 00 10 ? * *",
+        "replyType": "TEXT",
+        "remindContent": "今天开始刷题了吗？要完成今天目标哦！"
+      },
+      {
+        "cronTime": "* 00 10 ? * *",
+        "replyType": "PIC",
+        "remindContent": "doc/img2.gif"
+      },
+      {
+        "cronTime": "* 30 21 ? * *",
+        "replyType": "PLUGINCODE",
+        "remindContent": "org.androidtest.robotp.plugin.PlugInCodeHelper@exerciseWeeklyReport"
+      }
+    ],
+    "ExercisePlugin": {
+      "stepClockin": 1,
+      "sportClockin": 1,
+      "wstepClockin": 0,
+      "ExercisePluginConfig": {
+        "recallSelfClockin": true,
+        "clockinOnceADay": true
+      }
+    }
+  }
+}
