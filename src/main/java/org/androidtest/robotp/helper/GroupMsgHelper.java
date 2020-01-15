@@ -71,8 +71,9 @@ public class GroupMsgHelper {
             if (StringUtil.ifNotNullOrEmpty(iPlugin)) {
                 isRepled = iPlugin.reply(group, msg);
             } else {
-                LogUtil.MSG.info("groupMsgHandle: " + "非法参数: " + content
-                        + "，消息过滤不处理.result=" + result);
+            ;
+               // LogUtil.MSG.info("groupMsgHandle: " + "非法参数: " + content
+                //        + "，消息过滤不处理.result=" + result);
             }
             if (!isRepled && isContentContainsRobotName(group, msg, content)) {
                 result = unknownTextMsgReply(group, msg, content);
