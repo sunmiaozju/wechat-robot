@@ -1,0 +1,17 @@
+*.pcd
+*.pgm
+*.dae
+*.DAE
+/cmake-build-debug
+*idea
+*.idea
+*.vscode
+*/.vscode
+*.vscode/
+**.pyc
+**.ini
+*.pyc
+*.bag
+**.bag
+*~
+*.gitignore~
